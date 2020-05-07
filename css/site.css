@@ -1,0 +1,47 @@
+body {
+  font-family: "Fira Code", "Inconsolata", "Monaco", "Consolas", monospace;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 20% auto 20%;
+}
+
+.grid-title{
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.grid-title a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.grid-nav {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  text-align: right;
+}
+
+.grid-nav-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  display: inline-block;
+}
+
+@media (max-width: 800px) {
+  .grid-nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.grid-text {
+  grid-column-start:2;
+  grid-column-end: 4;
+}
+
+.smol {
+  font-size: smaller;
+} 
