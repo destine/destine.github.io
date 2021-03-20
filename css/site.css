@@ -1,5 +1,14 @@
+head {
+  font-family: 'Lato', sans-serif;
+}
+
 body {
-  font-family: "Fira Code", "Inconsolata", "Monaco", "Consolas", monospace;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
 }
 
 .container {
