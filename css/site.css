@@ -34,6 +34,7 @@ a {
 
 .grid-nav-link {
   display: flex;
+  margin-left: 3em;
   flex-direction: column;
   justify-content: center;
   display: inline-block;
