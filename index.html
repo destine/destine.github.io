@@ -16,9 +16,28 @@
     <meta name="description" content="Destine Lee: Mathematics Student.">
     <meta name="author" content="Destine Lee">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap" rel="stylesheet">
+    <!--Load KaTeX for rendering mathematics notation.-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.css" integrity="sha384-t5CR+zwDAROtph0PXGte6ia8heboACF9R5l/DiY+WZ3P2lxNgvJkQk5n7GPvLMYw" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/katex.min.js" integrity="sha384-FaFLTlohFghEIZkw6VGwmf9ISTubWAVYW8tG8+w2LAIftJEULZABrF9PPFv+tVkH" crossorigin="anonymous"></script>
+    <script>
+      function load() {
+        renderMathInElement(
+          document.body,
+          {
+          delimiters: [
+            {left: "$$", right: "$$", display: true},
+            {left: "$", right: "$", display: false},
+            {left: "\\(", right: "\\)", display: false},
+            {left: "\\[", right: "\\]", display: true}
+          ]
+          }
+        );
+      }
+    </script>
+    <script defer src="https://cdn.jsdelivr.net/npm/katex@0.13.0/dist/contrib/auto-render.min.js" integrity="sha384-bHBqxz8fokvgoJ/sc17HODNxa42TlaEhB+w8ZJXTc2nZf1VgEaFZeZvT4Mznfz0v" crossorigin="anonymous"
+    onload="load();"></script>
     <title>Destine Lee</title>
-
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/site.css">
   </head>
@@ -33,7 +52,7 @@
         <p class="grid-nav-link"><a href="works.html">Portfolio</a></p>
       </div>
       <div class="grid-text">
-        <p>I like math.</p>
+        <p>I like math. Currently, I study algebraic topology, the mathematics of general relativity, and partial differential equations. Just last week, I learned one can fold origami with Riemannian manifolds.</p>
       </div>
     </div>
   </body>
