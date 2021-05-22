@@ -1,0 +1,89 @@
+body {
+  font-size: 1.2em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+figure {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right:auto;
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 1em;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 1em;
+  }
+}
+
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+.border-left {
+  border: solid  #1abc9c;
+  border-width: 0px 0px 0px 5px;
+  padding: 0px 0px 0px 20px;
+}
+
+.ghost-text {
+  color:  #eaecee;
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 20% 40% auto 20%;
+}
+
+.grid-title {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
+.grid-title a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.grid-nav {
+  grid-column-start: 3;
+  grid-column-end: 4;
+  text-align: right;
+}
+
+.grid-nav-link {
+  display: flex;
+  margin-left: 3em;
+  flex-direction: column;
+  justify-content: center;
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .grid-nav {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.grid-text {
+  grid-column-start:2;
+  grid-column-end: 4;
+}
+
+.smol {
+  font-size: smaller;
+} 
