@@ -1,13 +1,24 @@
-head {
-  font-family: 'Lato', sans-serif;
-}
-
 body {
+  font-size: 1.2em;
   font-family: 'Open Sans', sans-serif;
 }
 
 figure {
+  margin-top: 2em;
+  margin-bottom: 2em;
+  margin-left: auto;
+  margin-right:auto;
   text-align: center;
+}
+
+figcaption {
+  margin-top: 1em;
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 1em;
+  }
 }
 
 a {
@@ -34,10 +45,10 @@ a {
 
 .container {
   display: grid;
-  grid-template-columns: 20% 20% auto 20%;
+  grid-template-columns: 20% 40% auto 20%;
 }
 
-.grid-title{
+.grid-title {
   grid-column-start: 2;
   grid-column-end: 3;
 }
@@ -61,7 +72,7 @@ a {
   display: inline-block;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 768px) {
   .grid-nav {
     display: flex;
     flex-direction: column;
