@@ -5,7 +5,6 @@
 layout: home
 title: This is
 ---
-I share maths.
+自言自语。
 
-- [Computing periodic points on Veech surfaces. Geom Dedicata 217, 66 (2023).](https://arxiv.org/abs/2112.02698)
-- [Graph Coverings and (Im)primitive Homology: Examples of Low Degree. Exp Math 32, 2 (2021).](https://arxiv.org/abs/2008.13714)
+I catch and release (that is, learn and forget) mathematics. Herein, I record my catches. 🎣
